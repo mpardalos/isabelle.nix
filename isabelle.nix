@@ -217,7 +217,7 @@ let
       src =
         fetchurl {
           url = "https://github.com/m-fleury/isabelle-emacs/archive/${dirname}-vsce.tar.gz";
-          sha256 = "sha256-nE6Ec+4XA3LdC+dFwY7leUvS8EluQJEjclMm3lN39rQ=";
+          sha256 = "dd5c6df440defbe9732d22fabf2f2258d3977f09a2dd9117855000beb6d2362d";
         };
 
       buildInputs = [ polyml z3 veriT vampire eprover-ho nettools curl cvc4 cvc5 leo2 leo3 iprover satallax ];
